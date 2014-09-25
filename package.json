@@ -17,7 +17,7 @@
     "email": "alex@briefly.io",
     "url": "https://briefly.io/staffcorner/alex"
   },
-  "main": "index.ts",
+  "main": "index.js",
   "repository": "https://github.com/briefly/GulpTasks",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
