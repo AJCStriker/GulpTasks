@@ -12,3 +12,5 @@ var generateTask = function (scriptDirectories, buildDirectory) {
             .pipe(gulp.dest(buildDirectory));
     }
 }
+
+module.exports = generateTask

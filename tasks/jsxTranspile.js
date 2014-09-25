@@ -8,3 +8,5 @@ var generateTask = function (scriptEntryPoint, buildDirectory) {
             .pipe(gulp.dest(buildDirectory));
     }
 }
+
+module.exports = generateTask
