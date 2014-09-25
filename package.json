@@ -1,0 +1,30 @@
+{
+  "name": "briefly-gulp-tasks",
+  "description": "A collection of Gulp build tasks used at briefly.io",
+  "version": "0.0.1",
+  "keywords": [
+    "briefly",
+    "gulp"
+  ],
+  "homepage": "https://briefly.io/opensource",
+  "bugs": {
+    "url": "https://github.com/briefly/GulpTasks/issues",
+    "email": "pestcontrol@briefly.io"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alexander Christie",
+    "email": "alex@briefly.io",
+    "url": "https://briefly.io/staffcorner/alex"
+  },
+  "main": "index.ts",
+  "repository": "https://github.com/briefly/GulpTasks",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "browserify": "^5.12.0",
+    "gulp-react": "^1.0.2",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
