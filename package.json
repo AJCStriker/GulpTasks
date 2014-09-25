@@ -25,6 +25,7 @@
   "dependencies": {
     "browserify": "^5.12.0",
     "gulp-react": "^1.0.2",
+    "gulp-sass": "^1.0.0",
     "vinyl-source-stream": "^1.0.0"
   }
 }
