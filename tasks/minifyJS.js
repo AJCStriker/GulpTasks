@@ -1,5 +1,6 @@
 var gulp = require('gulp')
 var uglify = require('gulp-uglify')
+var rename = require('gulp-rename')
 
 var generateTask = function (scriptDirectories, buildDirectory, debugStatus) {
     return function () {
@@ -9,6 +10,11 @@ var generateTask = function (scriptDirectories, buildDirectory, debugStatus) {
                     global_defs: {
                         DEBUG: debugStatus
                     }
+                }
+            }))
+            .pipe(rename(function (path) {
+                if(path.extname === '.js') {
+                    path.basename += '.min'
                 }
             }))
             .pipe(gulp.dest(buildDirectory))
