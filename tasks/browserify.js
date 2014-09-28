@@ -4,7 +4,9 @@ var source = require('vinyl-source-stream')
 
 var generateTask = function (scriptDirectories, buildDirectory) {
     return function () {
-        var bify = browserify()
+        var bify = browserify({
+            extensions: ['.jsx']
+        })
         bify.add(scriptDirectories)
 
         return bify.bundle()
