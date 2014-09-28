@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "browserify": "^5.12.0",
+    "del": "^0.1.3",
+    "gulp": "^3.8.8",
     "gulp-concat": "^2.4.1",
     "gulp-dedupe": "0.0.1",
     "gulp-minify-css": "^0.3.10",

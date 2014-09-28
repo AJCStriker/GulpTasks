@@ -7,3 +7,5 @@ exports.jsxtranspile = require('./tasks/jsxTranspile')
 exports.minifyCSS = require('./tasks/minifyCSS')
 
 exports.minifyJS = require('./tasks/minifyJS')
+
+exports.clean = require('./tasks/clean')
